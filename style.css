@@ -1,27 +1,52 @@
 html, body {
-  height: 100%;
-  width: 100%;
-}
+    height: 100%;
+    width: 100%;
+    background-color: #EEE4E2;
+  }
+  
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  
+  table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: whitesmoke;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
 
+  .note {
+    font-size: 120%;
+    color: red;
+  }
+  .Titulo{
+    border: 2px solid black;
+    font-weight: 2px;
+    font-size: 200%;
+    color:red
+  }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
+  .Tablas{
+    height: 650px;
+    width: 1500px;
+    font-size: 200%;
+    text-align: center;
+    
+  }
+  .titulo1{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
 
-
-table, th, td {
-  border: 1px solid white;
-  border-collapse: collapse;
-}
-th, td {
-  background-color: whitesmoke;
-}
-
-tr:nth-child(even) {
-  background-color: rgba(150, 212, 212, 0.4);
-}
-
-th:nth-child(even),td:nth-child(even) {
-  background-color: rgba(150, 212, 212, 0.4);
-}
