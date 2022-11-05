@@ -43,10 +43,29 @@ html, body {
     width: 1500px;
     font-size: 200%;
     text-align: center;
-    
+    border: 2px solid black;
   }
   .titulo1{
     border: 1px solid black;
     border-collapse: collapse;
   }
 
+  .prueba12{
+    position: absolute;
+    top: 10px;
+    float: center;
+  }
+
+.Completo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.lola{
+  font-size: 500%;
+
+
+
+
+}
